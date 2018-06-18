@@ -1,0 +1,18 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700&subset=latin-ext');
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+@import "fontawsome";
+@import "mixins";
+@import "header";
+@import "custom";
+@import "menu";
+@import "slide";
+@import "footer";
+@import "box";
+@import "breadcrumbs";
+@import "offcanvas/offcanvas";
+@import "acc";
+@import "buttons";

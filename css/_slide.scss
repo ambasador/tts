@@ -1,0 +1,118 @@
+.slide__top{
+  background: url("../assets/slide_1.jpg") center top no-repeat;
+  height: 270px;
+  @media (max-width: $screen-sm-min) {
+    background: none;
+    height: auto;
+  }
+  &.index_1{
+    background: url("../assets/slide_2.jpg") center top no-repeat;
+    height: 270px;
+    @media (max-width: $screen-sm-min) {
+      background: none;
+      height: auto;
+    }
+  }
+
+  .slide__box{
+    @include background-horizontal(#85256c, #e73664);
+    padding: 6px;
+    margin-top: 43px;
+    width: 329px;
+    position: relative;
+    height: 180px;
+    @media (max-width: $screen-sm-min) {
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+    }
+
+    .slide__box--inner{
+
+      position: relative;
+      .box_svg{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 167px;
+        @media (max-width: $screen-sm-min) {
+          display: none;
+        }
+        svg{
+
+        }
+      }
+      h1{
+        color: #fff;
+        font-size: 26px;
+        font-weight: 500;
+        padding: 54px 0 42px 26px;
+        line-height: 32px;
+        margin: 0;
+        @media (max-width: $screen-sm-min) {
+          font-size: 25px;
+          font-weight: 500;
+          padding: 28px 26px;
+          line-height: 38px;
+          text-align: center;
+
+        }
+
+      }
+    }
+  }
+  &.index_2{
+    background: url("../assets/slide_3.jpg") center top no-repeat;
+    height: 270px;
+    @media (max-width: $screen-sm-min) {
+      background: none;
+      height: auto;
+    }
+    .slide__box {
+      .slide__box--inner {
+        h1 {
+          color: #fff;
+          font-size: 34px;
+          font-weight: 500;
+          padding: 71px 0 71px 0;
+          line-height: 38px;
+          margin: 0;
+          text-align: center;
+          @media (max-width: $screen-sm-min) {
+            font-size: 25px;
+            font-weight: 500;
+            padding: 28px 26px;
+            line-height: 38px;
+
+          }
+        }
+      }
+    }
+  }
+}
+.top__slider{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  svg{
+    display: block;
+    margin: 0 auto;
+    width: 63px;
+    fill:#108BC9;
+  }
+  h3{
+    color: #058bca;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+}
+.line{
+  height: 20px;
+  display: block;
+  margin: 20px auto;
+  svg{
+    height: 2px;
+    width: 100%;
+  }
+}

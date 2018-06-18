@@ -1,0 +1,19 @@
+.breadcrumbs{
+  @include rem(padding, 15px 0);
+  font-size: 20px;
+  @media (max-width: $screen-sm-min) {
+    @include rem(padding, 15px);
+  }
+  span{
+    color: #062854;
+    text-transform: uppercase;
+  &.last{
+    font-weight: 500;
+  }
+  }
+  .separator{
+    color: #e73664;
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
